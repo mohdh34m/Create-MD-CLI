@@ -1,0 +1,38 @@
+{
+	"name": "create-md-cli",
+	"description": "CLI Tool for generate New Project",
+	"version": "0.0.1",
+	"license": "MIT",
+	"type": "module",
+	"bin": "./index.js",
+	"author": {
+		"name": "Mohamed Hasan"
+	},
+	"keywords": [
+		"create-md-cli",
+		"cli",
+		"javscript"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"chalk": "^5.0.1",
+		"cli-spinner": "^0.2.10",
+		"figlet": "^1.5.2",
+		"fs-extra": "^10.1.0",
+		"graceful-fs": "^4.2.10",
+		"gradient-string": "^2.0.1",
+		"inquirer": "^9.1.0",
+		"ora": "^6.1.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.13.10",
+		"eslint": "^7.22.0",
+		"eslint-config-airbnb-base": "^14.2.1",
+		"eslint-config-prettier": "^8.1.0",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-prettier": "^3.3.1",
+		"prettier": "^2.2.1"
+	}
+}
