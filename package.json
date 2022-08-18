@@ -5,6 +5,10 @@
 	"license": "MIT",
 	"type": "module",
 	"bin": "./index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mohdh34m/Create-MD-CLI"
+	},
 	"author": {
 		"name": "Mohamed Hasan"
 	},
