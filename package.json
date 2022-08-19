@@ -1,7 +1,7 @@
 {
 	"name": "create-md-cli",
 	"description": "CLI Tool for generate New Project",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"license": "MIT",
 	"type": "module",
 	"bin": "./index.js",
@@ -28,7 +28,8 @@
 		"graceful-fs": "^4.2.10",
 		"gradient-string": "^2.0.1",
 		"inquirer": "^9.1.0",
-		"ora": "^6.1.2"
+		"ora": "^6.1.2",
+		"rxjs": "^7.5.6"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.13.10",
